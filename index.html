@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Image Webpage</title>
+    <!-- The viewport tag is critical for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0; /* Optional background color */
+        }
+        img {
+            max-width: 100%;    /* Limits width to the screen size */
+            height: auto;       /* Maintains the original aspect ratio */
+            display: block;     /* Removes extra space below the image */
+        }
+    </style>
 </head>
 <body>
-    <h1></h1>
-    <img src="explorist logo_PE.jpg" alt="Description of your image">
+    <img src="explorist logo_PE.jpg" alt="Description of image">
 </body>
 </html>
